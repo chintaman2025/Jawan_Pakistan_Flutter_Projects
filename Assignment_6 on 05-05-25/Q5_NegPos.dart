@@ -1,4 +1,3 @@
-import 'dart:developer';
 import 'dart:io';
 
 void main() {
@@ -8,17 +7,11 @@ void main() {
   String? input = stdin.readLineSync();
   int numCheck = int.parse(input!);
 
-  if (numCheck > 0) 
-  {
+  if (numCheck > 0) {
     print('The given number $numCheck is positive.');
-  } 
-  else if (numCheck < 0)
-  {
+  } else if (numCheck < 0) {
     print('The given number $numCheck is Negative.');
-  }
-  else
-  {
+  } else {
     print('The given number $numCheck is ZERO.');
   }
-
 }
