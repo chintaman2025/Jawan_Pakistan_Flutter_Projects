@@ -82,7 +82,7 @@ void main() {
     print(""); // spacing
   }
 
-  // Print all student data
+  // Print all student dDta
   print("\n📊 All Registered Students:\n");
 
   for (int i = 0; i < students.length; i++) {
